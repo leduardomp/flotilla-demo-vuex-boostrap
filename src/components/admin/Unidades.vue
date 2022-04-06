@@ -37,17 +37,17 @@
           <tr>
             <th scope="row">1</th>
             
-            <th scope="col">PHUN-00001</th>
-            <th scope="col">Volkswagen</th>
-            <th scope="col">Transporter</th>
-            <th scope="col">2020</th>
-            <th scope="col">01/10/2019</th>
-            <th scope="col">CL-MKS-09</th>
-            <th scope="col">Mayo-Junio</th>
-            <th scope="col">10-Novimbre-2021</th>
-            <th scope="col">03/02/2022</th>
-            <th scope="col">01/10/2019</th>
-            <th scope="col">80,000</th>
+            <td scope="col">PHUN-00001</td>
+            <td scope="col">Volkswagen</td>
+            <td scope="col">Transporter</td>
+            <td scope="col">2020</td>
+            <td scope="col">01/10/2019</td>
+            <td scope="col">CL-MKS-09</td>
+            <td scope="col">Mayo-Junio</td>
+            <td scope="col">10-Novimbre-2021</td>
+            <td scope="col">03/02/2022</td>
+            <td scope="col">01/10/2019</td>
+            <td scope="col">80,000</td>
 
             <td>
               <button class="btn btn-outline-info btn-sm">
@@ -58,17 +58,17 @@
           <tr>
             <th scope="row">2</th>
 
-            <th scope="col">PHUN-00002</th>
-            <th scope="col">Volkswagen</th>
-            <th scope="col">Transporter</th>
-            <th scope="col">2020</th>
-            <th scope="col">01/10/2019</th>
-            <th scope="col">CL-MFZ-09</th>
-            <th scope="col">Mayo-Junio</th>
-            <th scope="col">10-Novimbre-2021</th>
-            <th scope="col">03/02/2022</th>
-            <th scope="col">01/10/2019</th>
-            <th scope="col">81,000</th>
+            <td scope="col">PHUN-00002</td>
+            <td scope="col">Volkswagen</td>
+            <td scope="col">Transporter</td>
+            <td scope="col">2020</td>
+            <td scope="col">01/10/2019</td>
+            <td scope="col">CL-MFZ-09</td>
+            <td scope="col">Mayo-Junio</td>
+            <td scope="col">10-Novimbre-2021</td>
+            <td scope="col">03/02/2022</td>
+            <td scope="col">01/10/2019</td>
+            <td scope="col">81,000</td>
 
             <td>
               <button class="btn btn-outline-info btn-sm">
@@ -79,17 +79,17 @@
           <tr>
             <th scope="row">3</th>
 
-            <th scope="col">PHUN-00003</th>
-            <th scope="col">Volkswagen</th>
-            <th scope="col">Transporter</th>
-            <th scope="col">2021</th>
-            <th scope="col">01/10/2020</th>
-            <th scope="col">ZY-ALM-09</th>
-            <th scope="col">Mayo-Junio</th>
-            <th scope="col">10-Novimbre-2020</th>
-            <th scope="col">03/02/2022</th>
-            <th scope="col">01/10/2020</th>
-            <th scope="col">20,000</th>
+            <td scope="col">PHUN-00003</td>
+            <td scope="col">Volkswagen</td>
+            <td scope="col">Transporter</td>
+            <td scope="col">2021</td>
+            <td scope="col">01/10/2020</td>
+            <td scope="col">ZY-ALM-09</td>
+            <td scope="col">Mayo-Junio</td>
+            <td scope="col">10-Novimbre-2020</td>
+            <td scope="col">03/02/2022</td>
+            <td scope="col">01/10/2020</td>
+            <td scope="col">20,000</td>
 
             <td>
               <button class="btn btn-outline-info btn-sm" data-toggle="modal" data-target="#modalVerRutas">

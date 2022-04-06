@@ -75,7 +75,9 @@ export default {
 
 .div-grafica{
   width: 33%;
+  min-width: 200px;
   padding: 0px 20px;
+  display: flexbox;
 }
 
 .rangoFecha{
