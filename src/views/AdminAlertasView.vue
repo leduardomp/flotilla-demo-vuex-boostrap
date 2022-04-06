@@ -2,7 +2,7 @@
   <barra-superior />
   <div class="contenido"> 
     <menu-lateral />
-    <rutas />
+    <alertas />
   </div>
   
 </template>
@@ -10,14 +10,16 @@
 <script>
 import MenuLateral from '@/components/MenuLateral.vue'
 import BarraSuperior from '@/components/BarraSuperior.vue'
-import Rutas from '@/components/rutas/Rutas.vue'
+import Alertas from '@/components/admin/Alertas.vue'
+
 
 export default {
-  name:'RutasView',
+  name:'AdminAlertasView',
   components: { 
     MenuLateral, 
-    BarraSuperior, 
-    Rutas 
+    BarraSuperior,
+    Alertas, 
+    
   },
 }
 </script>

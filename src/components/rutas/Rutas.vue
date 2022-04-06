@@ -22,7 +22,7 @@
             <th scope="col">Multidestino</th>
             <th scope="col">Hora de salida</th>
             <th scope="col">Hora de llegada</th>
-            <th scope="col">Conductor</th>
+            <th scope="col">Operador</th>
             <th scope="col">Núm unidad</th>
             <th scope="col">Ver</th>
           </tr>
@@ -33,8 +33,8 @@
             <td>Bodega Norte</td>
             <td>IMSS Zaragoza</td>
             <td>No</td>
-            <td>11:00</td>
-            <td>12:30</td>
+            <td>01:00</td>
+            <td>13:30</td>
             <td>Luis Martinez</td>
             <td>Unidad B</td>
             <td>
@@ -61,14 +61,14 @@
           <tr>
             <th scope="row">3</th>
             <td>Bodega Sur</td>
-            <td>Bodega Norte</td>
+            <td>Bodega Sur</td>
             <td>Si</td>
             <td>09:00</td>
             <td>16:30</td>
             <td>Carlos Betancurt</td>
             <td>Unidad D</td>
             <td>
-              <button class="btn btn-outline-info btn-sm">
+              <button class="btn btn-outline-info btn-sm" data-toggle="modal" data-target="#modalVerRutas">
                 <i class="bi bi-info-square-fill"></i>
               </button>
             </td>
@@ -77,14 +77,16 @@
       </table>
     </div>
   </div>
-  <modal-rutas idElemento="modalRutas"/>
+  <modal-nueva-rutas idElemento="modalRutas"/>
+  <modal-ver-rutas idElemento="modalVerRutas"/>
 </template>
 
 <script>
-import ModalRutas from './ModalRutas.vue';
+import ModalNuevaRutas from './ModalNuevaRutas.vue';
+import ModalVerRutas from './ModalVerRutas.vue';
 
 export default {
-  components: { ModalRutas },
+  components: { ModalNuevaRutas, ModalVerRutas },
 };
 </script>
 

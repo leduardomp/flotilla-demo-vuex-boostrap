@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Principal from './views/PrincipalView.vue'
+import Principal from './views/MonitoreoView.vue'
 
 export default {
   components: { Principal },

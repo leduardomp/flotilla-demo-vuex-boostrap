@@ -2,7 +2,7 @@
   <barra-superior />
   <div class="contenido"> 
     <menu-lateral />
-    <rutas />
+    <reporte-dashboard />
   </div>
   
 </template>
@@ -10,14 +10,14 @@
 <script>
 import MenuLateral from '@/components/MenuLateral.vue'
 import BarraSuperior from '@/components/BarraSuperior.vue'
-import Rutas from '@/components/rutas/Rutas.vue'
+import ReporteDashboard from '@/components/reportes/ReporteDashboard.vue'
 
 export default {
   name:'RutasView',
   components: { 
     MenuLateral, 
     BarraSuperior, 
-    Rutas 
+    ReporteDashboard
   },
 }
 </script>

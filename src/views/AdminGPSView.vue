@@ -2,7 +2,7 @@
   <barra-superior />
   <div class="contenido"> 
     <menu-lateral />
-    <rutas />
+    <modulos-gps />
   </div>
   
 </template>
@@ -10,14 +10,15 @@
 <script>
 import MenuLateral from '@/components/MenuLateral.vue'
 import BarraSuperior from '@/components/BarraSuperior.vue'
-import Rutas from '@/components/rutas/Rutas.vue'
+import ModulosGps from '@/components/admin/ModulosGps.vue'
+
 
 export default {
-  name:'RutasView',
+  name:'AdminAlertasView',
   components: { 
     MenuLateral, 
-    BarraSuperior, 
-    Rutas 
+    BarraSuperior,
+    ModulosGps
   },
 }
 </script>

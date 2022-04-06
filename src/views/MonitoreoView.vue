@@ -10,7 +10,7 @@
 <script>
 import MenuLateral from '@/components/MenuLateral.vue'
 import BarraSuperior from '@/components/BarraSuperior.vue'
-import Mapa from '@/components/Mapa.vue'
+import Mapa from '@/components/monitoreo/Mapa.vue'
 
 export default {
   components: { MenuLateral, BarraSuperior, Mapa },

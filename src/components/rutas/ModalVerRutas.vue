@@ -9,7 +9,7 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title">Nueva ruta</h5>
+          <h5 class="modal-title">Ruta #3</h5>
           <button
             type="button"
             class="close"
@@ -21,32 +21,7 @@
         </div>
         <div class="modal-body">
           <div class="div-superior">
-            <div class="conductor">
-              <div class="tit">Conductor</div>
-              <div class="combo">
-                <div class="dropdown">
-                  <button
-                    class="btn btn-secondary dropdown-toggle"
-                    type="button"
-                    id="dropdownMenuButton"
-                    data-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Selecciona
-                  </button>
-                  <div
-                    class="dropdown-menu"
-                    aria-labelledby="dropdownMenuButton"
-                  >
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-            <div class="unidad"></div>
+            
           </div>
           <div class="div-rutas">
             <div class="titulo-tabla">Rutas a cumplir</div>
@@ -65,10 +40,10 @@
                 <tbody>
                   <tr>
                     <th scope="row">1</th>
-                    <td>Bodega Norte</td>
-                    <td>IMSS Zaragoza</td>
-                    <td>11:00</td>
-                    <td>12:30</td>
+                    <td>Bodega Sur</td>
+                    <td>IMSS Tlalpan</td>
+                    <td>09:00</td>
+                    <td>11:30</td>
                     <td>
                       <button class="btn btn-outline-danger btn-sm">
                         <i class="bi bi-file-x-fill"></i>
@@ -77,10 +52,10 @@
                   </tr>
                   <tr>
                     <th scope="row">2</th>
-                    <td>Bodega Norte</td>
-                    <td>IMSS Puebla</td>
-                    <td>11:00</td>
-                    <td>15:30</td>
+                    <td>IMSS Tlalpan</td>
+                    <td>IMSS Zaragosa</td>
+                    <td>12:00</td>
+                    <td>13:30</td>
                     <td>
                       <button class="btn btn-outline-danger btn-sm">
                         <i class="bi bi-file-x-fill"></i>
@@ -89,9 +64,9 @@
                   </tr>
                   <tr>
                     <th scope="row">3</th>
+                    <td>IMSS Zaragoza</td>
                     <td>Bodega Sur</td>
-                    <td>Bodega Norte</td>
-                    <td>09:00</td>
+                    <td>14:30</td>
                     <td>16:30</td>
                     <td>
                       <button class="btn btn-outline-danger btn-sm">
